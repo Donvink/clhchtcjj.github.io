@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: RRR
-brief-intro: Algorithm Engineer&Data Mining Engineer  
+title: Turbo
+brief-intro: Machine Learning & Data Mining & Deep Learning  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://clhchtcjj.github.io" # the base hostname & protocol for your site
 
@@ -30,7 +30,7 @@ description_footer:
 # 三种评论插件，选一个就好了，使用自己的 short_name
 # 要关闭了 换成了友言 填id
 duoshuo_shortname: #KuangJun
-disqus_shortname: crisjk-github-io-1
+disqus_shortname: 
 youyan_id: #2128441
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
