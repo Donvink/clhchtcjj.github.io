@@ -17,7 +17,7 @@ type: page
 ## 联系我
 
 * GitHub：clhchtcjj
-* email：leihuichen@gmailc.com
+* email：leihuichen@gmail.com
 
 
 ## 友情链接
