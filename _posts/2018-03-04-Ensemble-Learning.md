@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 集成学习
-categories: machine learning
+categories: machine-learning
 author: CC
-tags: machine learning
+tags: machine-learning
 
 ---
 
@@ -96,6 +96,15 @@ Boosting：每个弱分类器都有相应的权重，对于分类误差小的分
 Bagging：各个预测函数可以并行生成。
 Boosting：各个预测函数只能顺序生成，因为后一个模型参数需要前一轮模型的结果。
 
+## stacked Generalization/blending/stacking 
+
+通常来说，stacked Generalization/blending/stacking 三个其实是一个算法的不同名称。该算法分为2层：
+
+- 第一层是用不同的算法形成T个弱学习器，同时产生一个与原数据集大小一样的新数据集。生成过程是：第$j$个学习器对第$i$个训练样本的预测值将作为新的训练集中第$i$个样本的第$j$个特征
+- 第二层是利用新数据集和一个新算法生成第二层的学习器
+
+注意：在预测过程中，也要先经过所有第一层的学习器产生新的测试集，再用第二层的学习器产生预测。
+
 ## 结合策略
 
 我们假定我得到的T个弱学习器是${h_1,h_2,...h_T}$
@@ -127,6 +136,8 @@ Boosting：各个预测函数只能顺序生成，因为后一个模型参数需
 ### 学习法
 
 所谓“学习法”就是通过另一个学习器来进行结合，如stacking和BMA（贝叶斯模型平均）。理论上来说，当数据生成模型恰在当前考虑的模型中，且数据噪声很少，则BMA不差于stacking，否则stacking要不BMA更鲁棒。
+
+
 
 ## 总结
 
