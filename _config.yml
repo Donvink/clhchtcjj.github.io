@@ -15,12 +15,12 @@ permalink: /:year/:month/:day/:title/
 
 # other links
 #twitter_username: 
-facebook_username: 
+#facebook_username: 
 github_username:  clhchtcjj
-email: 
-weibo_username: 
-zhihu_username: 
-linkedIn_username: 
+#email: 
+#weibo_username: 
+#zhihu_username: 
+#linkedIn_username: 
 #dribbble_username:
 
 description_footer: 
@@ -36,8 +36,8 @@ youyan_id: #2128441
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 
-google_analytics_id: 
+#baidu_tongji_id: 
+#google_analytics_id: 
 
 # Build settings
 markdown: kramdown
