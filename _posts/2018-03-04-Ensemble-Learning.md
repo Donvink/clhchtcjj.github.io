@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 集成学习
-categories: machine learning
+categories: machine-learning
 author: CC
 tags: machine learning
 
