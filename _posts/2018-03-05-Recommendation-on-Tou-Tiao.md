@@ -1,3 +1,9 @@
+layout: post
+title: 今日头条推荐技术
+categories: recommendation
+author: CC
+tags: recommendation
+
 # 今日头条推荐技术
 
 > 如果用形式化的方式去描述，那推荐系统实际上是拟合一个用户对内容的满意程度函数：$y=F(x_i,x_u,x_c)$。显然，这个函数需要输入三个维度的变量:
