@@ -24,8 +24,11 @@ Memorization 和 generalization 一直是推荐系统十分关注的问题。所
 >![](http://upload-images.jianshu.io/upload_images/2728607-173f25c084f7013b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 **输入（query）：**用户/用户的query请求
+
 **输出（items）：**rank list
+
 **记录（logs）：**用户的操作：点击，下载等（表明用户喜好）
+
 **过滤（retrieval）：**当 item 数量很大时，rank 将会是一个十分耗时的工作。为了解决这一问题，会事先基于机器学习模型或人工定义的一些规则，筛选出最符合输入要求的候选 items。
 
 ---------
