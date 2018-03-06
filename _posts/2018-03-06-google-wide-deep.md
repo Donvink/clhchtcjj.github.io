@@ -35,8 +35,9 @@ Memorization 和 generalization 一直是推荐系统十分关注的问题。所
 Wide component 说白了就是一个广义线性模型：
 ![](http://upload-images.jianshu.io/upload_images/2728607-e4f22f8dc3ce3f2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 其中，x 是输入的特征向量（d 维），w 是权重（d 维）， b 是偏置。
-**第 k 维的 transform feature 的构造：
-**![](http://upload-images.jianshu.io/upload_images/2728607-2de63aa7de3739ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+**第 k 维的 transform feature 的构造：**
+![](http://upload-images.jianshu.io/upload_images/2728607-2de63aa7de3739ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 $c_{ki}$是示性函数，如果特征 i 在第 k 维 transform feature 中则为1， 否则为0。（显然，这是人工事先定义的组合特征）
 
 ### 3.2 The deep Component
