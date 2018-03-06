@@ -34,7 +34,8 @@ Memorization 和 generalization 一直是推荐系统十分关注的问题。所
 ---------
 ## 3. Wide & Deep Learning
  > ![](http://upload-images.jianshu.io/upload_images/2728607-fd877d816f448fd4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-###3.1 The Wide Component
+
+### 3.1 The Wide Component
 Wide component 说白了就是一个广义线性模型：
 ![](http://upload-images.jianshu.io/upload_images/2728607-e4f22f8dc3ce3f2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 其中，x 是输入的特征向量（d 维），w 是权重（d 维）， b 是偏置。
