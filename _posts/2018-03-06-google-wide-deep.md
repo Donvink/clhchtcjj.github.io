@@ -103,7 +103,10 @@ Deep component 是一个前馈神经网络，每个隐层的计算是：
 - **Model training：**在这一模块中所面临的一项挑战是：每当有新数据到来是，模型就必须重新训练。作者采用warm-starting 的方法加以解决：用上一模型的参数初始化新模型。
 - **Model Serving：**多线程并行
 ---------
+
+
 ## 5. 实践
+
 参照google公开的[sample](https://github.com/tensorflow/models/tree/master/official/wide_deep)，自己调用API实践了下，以加深多模型的理解、熟悉API的使用。
 
 ```
@@ -114,7 +117,7 @@ Google
 |---wide_deep.py
 |---tmp
 |	|---census_data 模型所需数据
-|	|---census_model 训练好的模型
+|	|---census_model 训练好的模型程度
 ```
 
 
