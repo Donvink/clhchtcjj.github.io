@@ -107,7 +107,7 @@ Deep component 是一个前馈神经网络，每个隐层的计算是：
 
 ## 5. 实践
 
-参照google公开的[sample](https://github.com/tensorflow/models/tree/master/official/wide_deep)，自己调用API实践了下，以加深多模型的理解、熟悉API的使用。
+参照google公开的[sample](https://github.com/tensorflow/models/tree/master/official/wide_deep)，自己调用API实践了下[code](https://github.com/clhchtcjj/Deep-Learning/tree/master/Google%20wide%20and%20deep)，以加深多模型的理解、熟悉API的使用。
 
 ```
 文件说明
