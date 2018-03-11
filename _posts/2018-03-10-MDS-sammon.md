@@ -51,13 +51,23 @@ $tr(B)=\frac{1}{2m}\sum_i^m\sum_j^m d^{'2}_{ij}$
 
 那么：
 
-$b_{jj}=\frac{1}{m}(\sum_j^m d^{'2}_{ij}-\frac{1}{2m}\sum_i^m\sum_j^m d^{'2}_{ij})$
+$b_{jj}=\frac{1}{m}\sum_j^m d^{'2}_{ij}$
 
-$b_{ii}=\frac{1}{m}(\sum_i^m d^{'2}_{ij}-\frac{1}{2m}\sum_i^m\sum_j^m d^{'2}_{ij})$
+​	   $-\frac{1}{2m^2}\sum_i^m\sum_j^m d^{'2}_{ij}$
+
+$b_{ii}=\frac{1}{m}\sum_i^m d^{'2}_{ij}$
+
+​	  $-\frac{1}{2m^2}\sum_i^m\sum_j^m d^{'2}_{ij}$
 
 进一步的：
 
-$b_{ij}=\frac{1}{2}(\frac{1}{m}\sum_i^m d^{'2}_{ij}+\frac{1}{m}\sum_j^m d^{'2}_{ij}-\frac{1}{m}\sum_i^m\sum_j^m d^{'2}_{ij}-d^{'2}_{ij})$ (5)
+$b_{ij}=\frac{1}{2}(\frac{1}{m}\sum_i^m d^{'2}_{ij}$
+
+​	 $+\frac{1}{m}\sum_j^m d^{'2}_{ij}$
+
+​        $-\frac{1}{m^2}\sum_i^m\sum_j^m d^{'2}_{ij}$
+
+​        $-d^{'2}_{ij})$ (5)
 
 由于我们假定**任意两个样本在$d'$维空间中的欧式距离等于原空间中的欧式距离**，那么，$d^{'2}_{ij}=d^{2}_{ij}$
 
