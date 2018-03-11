@@ -1,3 +1,12 @@
+---
+layout: post
+title: 多维缩放MDS和Sammon映射
+categories: machine-learning
+author: CC
+tags: machine-learning
+
+---
+
 # 多维缩放MDS和Sammon映射
 
 多维缩放和sammon映射都是比较经典的降维技术，相同点在于期望在将高维数据从原空间映射到低维子空间时，保留数据点之间的距离信息；不同点在于MDS是线性降维，而sammon映射的非线性降维。下面将简单介绍这两种技术。
@@ -28,7 +37,7 @@ $d^{'2}_{ij}=\vert \vert{\bf{z}}_i-{\bf{z}}_j\vert \vert _2^2$
 
 ​      $=\vert \vert{\bf{z}}_i\vert \vert _2^2+\vert \vert{\bf{z}}_j\vert \vert _2^2-2{\bf{z}}_i^T{\bf{z}}_j$
 
-​      $=b_{ii}+b_{jj}-2b_{ij}​$ (1)
+​      $=b_{ii}+b_{jj}-2b_{ij}$ (1)
 
 $\sum_i^m d^{'2}_{ij}=tr(B)+mb_{jj}$ (2)
 
