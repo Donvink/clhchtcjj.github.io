@@ -39,9 +39,13 @@ $d^{'2}_{ij}=\vert \vert{\bf{z}}_i-{\bf{z}}_j\vert \vert _2^2$
 
 ​      $=b_{ii}+b_{jj}-2b_{ij}$ (1)
 
-$\sum_i^m d^{'2}_{ij}=tr(B)+mb_{jj}$ (2)
+$\sum_i^m d^{'2}_{ij}$
 
-$\sum_j^m d^{'2}_{ij}=tr(B)+mb_{ii}$ (3)
+$=tr(B)+mb_{jj}$ (2)
+
+$\sum_j^m d^{'2}_{ij}$
+
+$=tr(B)+mb_{ii}$ (3)
 
 $\sum_i^m\sum_j^m d^{'2}_{ij}=mtr(B)+mtr(B)=2m tr(B)$ (4)
 
